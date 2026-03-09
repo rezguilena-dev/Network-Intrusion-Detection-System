@@ -1,0 +1,15 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Environnement virtuel
+venv/
+env/
+
+#
+security_alerts.json
+*.log
+
+# IDE settings (VS Code, Pycharm)
+.vscode/
+.idea/
