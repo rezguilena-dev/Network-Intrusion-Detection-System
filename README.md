@@ -5,6 +5,11 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Finished-brightgreen?style=for-the-badge)
 
+<div align="center">
+  <img src="./images/dashboard.jpg" alt="Streamlit NIDS Dashboard" width="800">
+  <p><em>Real-time monitoring dashboard displaying critical network alerts.</em></p>
+</div>
+
 ## Project Overview
 This project has been developed to monitor, analyze, and alert on suspicious network traffic in real-time. The system combines a powerful backend sniffing engine with an interactive **Streamlit** dashboard for live threat visualization .
 
@@ -55,6 +60,11 @@ Before launching the main script ,open `utils/config.py` and update the `INTERFA
 sudo python3 main.py
 ```
 
+<div align="center">
+    <h4>Terminal output: Detection Engine</h4>
+    <img src="./images/terminal.jpg" alt="Backend Sniffing Engine Output" width="700">
+</div>
+
 ### 5.Launch the Monitoring Dashboard:
 in a separate terminal , run the Streamlit interface :
 ```bash
@@ -85,6 +95,13 @@ make sure you specify your target ip by updating the `target_ip` variable inside
    sudo python3 arp.py
 
 ```
+
+<div align="center">
+    <h4>Terminal output: ARP Attack Simulation</h4>
+    <img src="./images/arp-script-attack.png" alt="ARP Spoofing Simulation Script" width="600">
+   
+</div>
+
 ## Project's structure :
 ```
 .
